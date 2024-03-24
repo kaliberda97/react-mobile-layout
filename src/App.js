@@ -1,9 +1,10 @@
-
+import './App.scss'
+import { BalanceCard } from './components/BalanceCard/BalanceCard';
 
 function App() {
   return (
     <div className="App">
-      React + SCSS
+       <BalanceCard />
     </div>
   );
 }
