@@ -7,6 +7,7 @@ function App() {
     <div className="App">
        <BalanceCard />
        <Actions/>
+       <Statistic/>
     </div>
   );
 }
