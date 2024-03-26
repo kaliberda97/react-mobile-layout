@@ -10,7 +10,7 @@ export const Actions  = () => (
     </Block>
     <Block>
         <i className='ic-show'/>
-        <span>CVV</span>
+        <span>SHOW CVV</span>
     </Block>
 </div>
 )

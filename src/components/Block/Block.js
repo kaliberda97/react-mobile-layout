@@ -1,7 +1,13 @@
 import './Block.scss'
 
+export const Block = ({ children, className, onClick, big }) => {
+  let cls = 'Block'
 
+  if (className) {
+    cls += ` ${className}`
+  }
 
-export const Block = (children) => (
-    <div className='Block'>{children}</div>
- )
+  return (
+    <div className={cls} onClick={onClick}>{children}</div>
+  )
+}
