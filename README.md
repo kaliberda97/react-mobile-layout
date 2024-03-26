@@ -6,3 +6,4 @@ The Project react-mobile-layout was created during the online course by Anatoly-
 
 
 
+![start page ](./startpage.png)
