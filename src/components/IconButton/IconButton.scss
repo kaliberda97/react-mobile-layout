@@ -3,13 +3,14 @@
     width: var(--size);
     height: var(--size);
     border-radius: var(--size);
-    background: var(--gradient);
+    background: linear-gradient(to right, rgb(248, 226, 101), rgb(241, 162, 5));
     display: grid;
     align-items: center;
     justify-items: center;
     cursor: pointer;
   
     i {
-      font-size: 24px;
+      font-size: 25px;
+      color: #333;
     }
   }

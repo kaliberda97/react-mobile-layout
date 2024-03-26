@@ -5,5 +5,9 @@
     display: flex;
     gap: 10px;
     align-items: center;
-
-}
+  
+    &.big {
+      justify-content: space-between;
+      padding: 23px 36px;
+    }
+  }

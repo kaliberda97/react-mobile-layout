@@ -7,6 +7,10 @@ export const Block = ({ children, className, onClick, big }) => {
     cls += ` ${className}`
   }
 
+  if (big) {
+    cls += ' big'
+  }
+
   return (
     <div className={cls} onClick={onClick}>{children}</div>
   )

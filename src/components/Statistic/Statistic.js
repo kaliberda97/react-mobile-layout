@@ -23,7 +23,7 @@ export const Statistic = () => {
   }, [])
 
   const onShare = () => {
-    alert('ON SHARE')
+    alert('SHARE YOU MONEY')
   }
 
   return (
