@@ -21,3 +21,5 @@ export const BalanceCard = () => {
     </div>
   )
 }
+
+// added design
