@@ -1,0 +1,21 @@
+.Button {
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 10px 18px;
+    background: var(--dark);
+    font-size: 10px;
+    mix-blend-mode: overlay;
+
+
+span {
+      font-size: 12px;
+      font-weight: 400;
+      text-transform: uppercase;
+      background: var(--gradient_text);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      filter: brightness(600%);
+    }
+  }
+  // added design
